@@ -25,6 +25,7 @@ public class SimpleClient {
     private void executeTest() {
         
         System.out.println("[CLIENT] testing is server connected");
+        
         if (server.isServerConnected()) {
             System.out.println("[CLIENT] server is connected");
         } else {
